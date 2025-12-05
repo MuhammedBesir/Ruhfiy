@@ -26,7 +26,7 @@ import {
 } from "lucide-react";
 
 // Environment variables'dan al - güvenli!
-const SECRET_PASSWORD = import.meta.env.VITE_SECRET_PASSWORD || "ruhfy2024";
+const SECRET_PASSWORD = import.meta.env.VITE_SECRET_PASSWORD || "";
 const AI_API_KEY = import.meta.env.VITE_AI_API_KEY || "";
 
 /**
